@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName ""
+AuthUserFile /opt/apache242/htpasswd/.htpasswd
+<FilesMatch "^(t|t1|tconfig)\.php$">
+  require valid-user
+</FilesMatch>

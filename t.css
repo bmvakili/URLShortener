@@ -1,0 +1,19 @@
+body {
+	font-family: arial;
+}
+label#tTag {
+	width: 30%;
+	display: inline
+	font-size: 4em;
+}
+input#tTag {
+	width:70%;
+	display: inline
+	font-size: 4em;
+}
+#tTag, #tURL, #result {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-size: 4em;
+}
