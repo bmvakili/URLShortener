@@ -4,17 +4,18 @@
 Apache Web Server with mod_php and mod_auth
 
 ##Install
-Place all files in web server directory
-Edit .htaccess file to update location of htpassword file.
-Edit tconfig.php; update $url_base to your server's url.
+Place all files in web server directory.<br/>
+Edit .htaccess file to update location of htpassword file.<br/>
+Edit tconfig.php; update $url_base to your server's url, e.g. http://examp.le .<br/>
 
 ##Verify
-Visit your server's url;
-Enter a url to shorten.
-Enter a tag.
-Press Enter.
-The url and tag should be generated.
-Visit the generated URL and it should redirect to the original URL.
+Visit your server's url: http://examp.le/t.php <br/>
+Enter the username / password.<br/>
+Enter a url to shorten, e.g. "http://reallylongu.rl/#qrt?q=abcdefg  sp ac es".<br/>
+Enter a tag.<br/>
+Press Enter.<br/>
+The url and tag should be generated.<br/>
+Visit the generated URL and it should redirect to the original URL.<br/>
 
 ##License
 This library, *URL Shortener*, is free software ("Licensed
