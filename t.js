@@ -12,7 +12,7 @@ jQuery(document).ready(function () {
 				tag += "&";
 			}
 			jQuery.ajax({
-				url: "/t1.php?" + tag + "link=" + encodeURIComponent(tURL.val()),
+				url: "t1.php?" + tag + "link=" + encodeURIComponent(tURL.val()),
 				success: function(dat) {
 					if (typeof dat != 'undefined' && dat.trim() != "") {
 						jQuery("#result").val(dat).focus();
