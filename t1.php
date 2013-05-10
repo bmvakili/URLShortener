@@ -18,11 +18,6 @@ function get_tiny_url($url, $tag) {
 		$xs = str_replace(" ","-",$tag);
 	}
 
-	$res = copy("template",$xs);
-	if ($res != 1) {
-		return "";
-	}
-
 	$str='<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=_REPLACE_THIS_" /></head></html>';
 	$str=str_replace("_REPLACE_THIS_", $url, $str);
 	file_put_contents($xs, $str);
