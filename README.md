@@ -1,14 +1,14 @@
-URL Shortener
+#URL Shortener
 
-#Pre-requisites
+##Pre-requisites
 Apache Web Server with mod_php and mod_auth
 
-#Install
+##Install
 Place all files in web server directory
 Edit .htaccess file to update location of htpassword file.
 Edit tconfig.php; update $url_base to your server's url.
 
-#Verify
+##Verify
 Visit your server's url;
 Enter a url to shorten.
 Enter a tag.
@@ -16,7 +16,7 @@ Press Enter.
 The url and tag should be generated.
 Visit the generated URL and it should redirect to the original URL.
 
-#License
+##License
 This library, *URL Shortener*, is free software ("Licensed
 Software"); you can redistribute it and/or modify it under the terms of the [GNU
 Lesser General Public License](http://www.gnu.org/licenses/lgpl-2.1.html) as
