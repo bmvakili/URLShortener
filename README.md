@@ -3,7 +3,7 @@
 ##Pre-requisites
 Apache Web Server with mod_php and mod_auth
 
-##Install
+##Install and Configure
 Place all files in web server directory.<br/>
 Edit .htaccess file to update location of htpassword file.<br/>
 Edit tconfig.php; update $url_base to your server's url, e.g. http://examp.le .<br/>
