@@ -11,7 +11,7 @@ Edit tconfig.php; update $url_base to your server's url, e.g. http://examp.le .<
 ##Verify
 Visit your server's url: http://examp.le/t.php <br/>
 Enter the username / password.<br/>
-Enter a url to shorten, e.g. "<a href="#">http://reallylongu.rl/#qrt?q=abcdefg  sp ac es</a>".<br/>
+Enter a url to shorten, e.g. [http://reallylongu.rl/#qrt?q=abcdefg  sp ac es](# "Example URL").<br/>
 Enter a tag.<br/>
 Press Enter.<br/>
 The url and tag should be generated.<br/>
