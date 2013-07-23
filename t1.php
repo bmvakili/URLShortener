@@ -21,7 +21,7 @@ function get_tiny_url($url, $tag) {
 	$str='<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=_REPLACE_THIS_" /></head></html>';
 	$str=str_replace("_REPLACE_THIS_", $url, $str);
 	file_put_contents($xs, $str);
-	return "${url_base}${xs}";
+	return "${url_base}/${xs}";
 }
 
 print(get_tiny_url($_REQUEST['link'], $_REQUEST['tag']));
